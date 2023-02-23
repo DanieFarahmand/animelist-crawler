@@ -1,3 +1,4 @@
+import json
 import sys
 from abc import ABC, abstractmethod
 import requests
@@ -18,14 +19,15 @@ class LinkCrawler(CrawlerBase):
     def __init__(self, genre, url):
         self.genre = genre
         self.url = url
+        self.crawl = True
 
     @staticmethod
     def get_page(url, page=1):
         try:
-            res = requests.get(url + str(page))
-        except:
+            response = requests.get(url + str(page))
+        except requests.RequestException:
             return None
-        return res
+        return response
 
     @staticmethod
     def find_links(html_doc):
@@ -34,19 +36,18 @@ class LinkCrawler(CrawlerBase):
         a_tags = div_tags.find_all("a")
         return [tag.get("href") for tag in a_tags]
 
-    def crawler(self, url):
+    def crawler(self, url, genre):
         page_anime_links = list()
         page = 1
-        crawl = True
         while page < 3:
             response = self.get_page(url, page)
             if response is not None:
                 links = self.find_links(response.text)
                 page_anime_links.extend(links)
-                print(links)
                 page += 1
             else:
-                crawl = False
+                self.crawl = False
+        self.store(page_anime_links, genre)
         return page_anime_links
 
     def start(self):
@@ -54,14 +55,13 @@ class LinkCrawler(CrawlerBase):
         anime_links = list()
         if switch == "find_links":
             for genre, genre_id in self.genre.items():
-                print(genre)
                 link = self.url(genre_id)
-                anime_links.extend(self.crawler(link))
-        return anime_links
+                anime_links.extend(self.crawler(link, genre))
+        self.store(anime_links)
 
-
-def store(self):
-    pass
+    def store(self, data, genre="anime-links"):
+        with open(f"data/{genre}.json", "w") as f:
+            f.write(json.dumps(data))
 
 
 class DataCrawler(CrawlerBase):
