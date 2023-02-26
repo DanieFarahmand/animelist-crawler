@@ -78,7 +78,7 @@ class DataCrawler(CrawlerBase):
         for link in self.links:
             response = self.get(link)
             datas = AnimeDetailParser().parser(response.text)
-            print(f"title: {datas['title']} ,score: {datas['score']} ")
+            print(f"title: {datas['title']} ,score: {datas['score']}, genre: {datas['genre']} ")
 
     def store(self):
         pass
