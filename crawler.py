@@ -51,12 +51,14 @@ class LinkCrawler(CrawlerBase):
         self.store(page_anime_links, genre)
         return page_anime_links
 
-    def start(self):
+    def start(self, store=False):
         anime_links = list()
         for genre, genre_id in self.genre.items():
             link = self.url(genre_id)
             anime_links.extend(self.crawler(link, genre))
-        self.store(anime_links)
+        if store:
+            self.store(anime_links)
+            return anime_links
 
     def store(self, data, genre="anime-links"):
         with open(f"data/{genre}.json", "w") as f:
@@ -75,11 +77,14 @@ class DataCrawler(CrawlerBase):
             datas = json.loads(f.read())
         return datas
 
-    def start(self):
+    def start(self, store=False):
         for link in self.links:
             response = self.get(link)
             datas = self.parser.parser(response.text)
-            print(f"title: {datas['title']} ,score: {datas['score']}, genre: {datas['genre']} ")
+            if store:
+                self.store(anime_data=datas, file_name=datas["title"].replace(" ", "-"))
 
-    def store(self):
-        pass
+    def store(self, anime_data, file_name):
+        with open(f"data/anime/{file_name}.json", "w") as f:
+            f.write(json.dumps(anime_data))
+        print(f"data/anime{file_name}.json")

@@ -28,7 +28,6 @@ class AnimeDetailParser:
 
     @property
     def genre(self):
-
         genre_span = self.soup.find('span', text='ژانرها')
         a_tags = genre_span.find_next_sibling('span').find_all('a')
         if a_tags:
