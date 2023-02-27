@@ -67,6 +67,7 @@ class DataCrawler(CrawlerBase):
 
     def __init__(self):
         self.links = self.__load_links()
+        self.parser = AnimeDetailParser()
 
     @staticmethod
     def __load_links():
@@ -77,7 +78,7 @@ class DataCrawler(CrawlerBase):
     def start(self):
         for link in self.links:
             response = self.get(link)
-            datas = AnimeDetailParser().parser(response.text)
+            datas = self.parser.parser(response.text)
             print(f"title: {datas['title']} ,score: {datas['score']}, genre: {datas['genre']} ")
 
     def store(self):
