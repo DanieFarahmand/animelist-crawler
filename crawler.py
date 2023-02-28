@@ -18,7 +18,7 @@ class CrawlerBase(ABC):
     def __set_storage():
         if STORAGE_TYPE == "mongo":
             return MongoStorage()
-        return FileStorage
+        return FileStorage()
 
     @abstractmethod
     def start(self):
@@ -62,7 +62,7 @@ class LinkCrawler(CrawlerBase):
                 page += 1
             else:
                 self.crawl = False
-        self.store(data=page_anime_links, genre=genre)
+        # self.store([{"url": link} for link in page_anime_links], genre)
         return page_anime_links
 
     def start(self):
@@ -70,11 +70,11 @@ class LinkCrawler(CrawlerBase):
         for genre, genre_id in self.genre.items():
             link = self.url(genre_id)
             anime_links.extend(self.crawler(link, genre))
-        self.store(data=anime_links)
+        self.store([{'url': link} for link in anime_links])
         return anime_links
 
     def store(self, data, genre="anime-links"):
-        self.storage.store(data=data, directory_name="anime-links", file_name=genre)
+        self.storage.store(data, "anime-links", genre)
 
 
 class DataCrawler(CrawlerBase):
@@ -86,9 +86,9 @@ class DataCrawler(CrawlerBase):
 
     @staticmethod
     def __load_links():
-        with open("data/anime-links/romance.json", "r") as f:
+        with open("data/anime-links/anime-links.json", "r") as f:
             datas = json.loads(f.read())
-        return datas
+        return [i["url"] for i in datas]
 
     def start(self):
         for link in self.links:
@@ -97,4 +97,4 @@ class DataCrawler(CrawlerBase):
             self.store(anime_data=datas, file_name=datas["title"].replace(" ", "-"))
 
     def store(self, anime_data, file_name):
-        self.storage.store(data=anime_data, directory_name="anime", file_name=file_name)
+        self.storage.store(anime_data, "anime-data", file_name)
