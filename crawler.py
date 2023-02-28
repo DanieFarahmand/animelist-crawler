@@ -62,7 +62,6 @@ class LinkCrawler(CrawlerBase):
                 page += 1
             else:
                 self.crawl = False
-        # self.store([{"url": link} for link in page_anime_links], genre)
         return page_anime_links
 
     def start(self):
@@ -73,8 +72,8 @@ class LinkCrawler(CrawlerBase):
         self.store([{'url': link} for link in anime_links])
         return anime_links
 
-    def store(self, data, genre="anime-links"):
-        self.storage.store(data, "anime-links", genre)
+    def store(self, data, file_name="links"):
+        self.storage.store(data, "anime-links", file_name)
 
 
 class DataCrawler(CrawlerBase):
@@ -86,7 +85,7 @@ class DataCrawler(CrawlerBase):
 
     @staticmethod
     def __load_links():
-        with open("data/anime-links/anime-links.json", "r") as f:
+        with open("data/anime-links/links.json", "r") as f:
             datas = json.loads(f.read())
         return [i["url"] for i in datas]
 
