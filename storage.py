@@ -9,6 +9,10 @@ class StorageAbstract(ABC):
     def store(self, data, *args):
         pass
 
+    @abstractmethod
+    def load(self):
+        pass
+
 
 class MongoStorage(StorageAbstract):
     def __init__(self):
@@ -21,6 +25,15 @@ class MongoStorage(StorageAbstract):
         else:
             collection.insert_one(data)
 
+    def load(self):
+        return self.mongo.database.anime_links.find({"flag": False})
+
+    def update_flag(self, data):
+        self.mongo.database.anime_links.find_one_and_update(
+            {"_id": data["_id"]},
+            {"$set": {"flag": True}}
+        )
+
 
 class FileStorage(StorageAbstract):
     @staticmethod
@@ -28,3 +41,11 @@ class FileStorage(StorageAbstract):
         with open(f"data/{directory_name}/{file_name}.json", "w") as f:
             f.write(json.dumps(data))
         print(f"data/anime{file_name}.json")
+
+    def load(self):
+        with open("data/anime_links/links.json", "r") as f:
+            datas = json.loads(f.read())
+        return datas
+
+    def update_flag(self, data):
+        pass

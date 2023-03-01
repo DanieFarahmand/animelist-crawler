@@ -25,7 +25,7 @@ class CrawlerBase(ABC):
         pass
 
     @abstractmethod
-    def store(self):
+    def store(self, data, file_name):
         pass
 
     @staticmethod
@@ -69,31 +69,29 @@ class LinkCrawler(CrawlerBase):
         for genre, genre_id in self.genre.items():
             link = self.url(genre_id)
             anime_links.extend(self.crawler(link, genre))
-        self.store([{'url': link} for link in anime_links])
+        self.store([{'url': link, "flag": False} for link in anime_links])
         return anime_links
 
     def store(self, data, file_name="links"):
-        self.storage.store(data, "anime-links", file_name)
+        self.storage.store(data, "anime_links", file_name)
 
 
 class DataCrawler(CrawlerBase):
 
     def __init__(self):
+        super().__init__()
         self.links = self.__load_links()
         self.parser = AnimeDetailParser()
-        super().__init__()
 
-    @staticmethod
-    def __load_links():
-        with open("data/anime-links/links.json", "r") as f:
-            datas = json.loads(f.read())
-        return [i["url"] for i in datas]
+    def __load_links(self):
+        return self.storage.load()
 
     def start(self):
         for link in self.links:
-            response = self.get(link)
+            response = self.get(link["url"])
             datas = self.parser.parser(response.text)
             self.store(anime_data=datas, file_name=datas["title"].replace(" ", "-"))
+            self.storage.update_flag(link)
 
     def store(self, anime_data, file_name):
-        self.storage.store(anime_data, "anime-data", file_name)
+        self.storage.store(anime_data, "anime_data", file_name)

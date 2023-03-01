@@ -1,15 +1,15 @@
 genres = {
     # "action": "1",
     "adventure": "2",
-    "comedy": "4",
-    "demons": "6",
-    "drama": "8",
+    # "comedy": "4",
+    # "demons": "6",
+    # "drama": "8",
     # "fantasy": "10",
     # "historical": "13",
-    "romance": "22",
-    "shounen": "27",
+    # "romance": "22",
+    # "shounen": "27",
 }
-STORAGE_TYPE = "file"  # choices: ['mongo','file']
+STORAGE_TYPE = "mongo"  # choices: ['mongo','file']
 
 
 def crawl_link(genre_id):
