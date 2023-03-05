@@ -1,5 +1,3 @@
-import json
-
 from abc import ABC, abstractmethod
 import requests
 from bs4 import BeautifulSoup
@@ -51,7 +49,7 @@ class LinkCrawler(CrawlerBase):
         a_tags = div_tags.find_all("a")
         return [tag.get("href") for tag in a_tags]
 
-    def crawler(self, url, genre):
+    def crawler(self, url):
         page_anime_links = list()
         page = 1
         while page < 3:
@@ -68,8 +66,8 @@ class LinkCrawler(CrawlerBase):
         anime_links = list()
         for genre, genre_id in self.genre.items():
             link = self.url(genre_id)
-            anime_links.extend(self.crawler(link, genre))
-        self.store([{'url': link, "flag": False} for link in anime_links])
+            anime_links.extend(self.crawler(link))
+            self.store([{'url': link, "flag": False} for link in anime_links])
         return anime_links
 
     def store(self, data, file_name="links"):
@@ -84,7 +82,7 @@ class DataCrawler(CrawlerBase):
         self.parser = AnimeDetailParser()
 
     def __load_links(self):
-        return self.storage.load()
+        return self.storage.load(collection_name="anime_links", filter_data={"flag": False})
 
     def start(self):
         for link in self.links:
@@ -95,3 +93,35 @@ class DataCrawler(CrawlerBase):
 
     def store(self, anime_data, file_name):
         self.storage.store(anime_data, "anime_data", file_name)
+
+
+class ImageDownloader(CrawlerBase):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.animes = self.__image_loader()
+
+    @staticmethod
+    def get(url):
+        try:
+            response = requests.get(url, stream=True)
+        except requests.RequestException:
+            return None
+        return response
+
+    def __image_loader(self):
+        return self.storage.load("anime_data")
+
+    def start(self):
+        for anime in self.animes:
+            print(anime)
+            response = self.get(anime["image"]["url"])
+            self.store(response, file_name=f"{anime['title']}_image")
+
+    def store(self, data, file_name):
+        return self.save_to_disk(data, file_name)
+
+    @staticmethod
+    def save_to_disk(response, file_name):
+        with open(f"data/images/{file_name}.jpg", "ab") as f:
+            f.write(response.content)
+            print(file_name)

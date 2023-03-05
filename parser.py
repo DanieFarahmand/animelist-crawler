@@ -7,11 +7,10 @@ class AnimeDetailParser:
 
     @property
     def title(self):
-
         div_tag = self.soup.find("div", attrs={"class": "header-single__info"})
         title_tag = div_tag.find("h1")
         if title_tag:
-            return title_tag.text.strip()
+            return title_tag.text.strip().replace(":", "-")
 
     @property
     def summary(self):
@@ -33,7 +32,12 @@ class AnimeDetailParser:
         if a_tags:
             return [a.text for a in a_tags]
 
+    @property
+    def image(self):
+        img_tag = self.soup.find("img", attrs={"class": "poster"})
+        return {"url": "https://anime-list.net" + img_tag["src"], "flag": False}
+
     def parser(self, html_doc):
         self.soup = BeautifulSoup(html_doc, "html.parser")
-        data = dict(title=self.title, summary=self.summary, score=self.score, genre=self.genre)
+        data = dict(title=self.title, image=self.image, summary=self.summary, score=self.score, genre=self.genre)
         return data
