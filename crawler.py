@@ -115,7 +115,7 @@ class ImageDownloader(CrawlerBase):
         for anime in self.animes:
             print(anime)
             response = self.get(anime["image"]["url"])
-            self.store(response, file_name=f"{anime['title']}_image")
+            self.store(response, file_name=anime['_id'])
 
     def store(self, data, file_name):
         return self.save_to_disk(data, file_name)
