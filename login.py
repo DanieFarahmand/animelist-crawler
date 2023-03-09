@@ -3,6 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common import NoSuchElementException
+from registration_data import EMAIL, PASSWORD
 
 
 class Browser:
@@ -32,12 +33,12 @@ class Browser:
             By.XPATH, "/html/body/form/div/div[2]/input[1]"
         )
         email_input.clear()
-        email_input.send_keys("danie.0098.sh@gmail.com")
+        email_input.send_keys(EMAIL)
         password_input = self.driver.find_element(
             By.XPATH, "/html/body/form/div/div[2]/input[2]"
         )
         password_input.clear()
-        password_input.send_keys('Danie0098')
+        password_input.send_keys(PASSWORD)
         submit_button = self.driver.find_element(
             By.XPATH, "/html/body/form/div/div[3]/div[2]/button"
         )
@@ -53,4 +54,3 @@ class Browser:
         self.driver.close()
 
         return cookie
-
