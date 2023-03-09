@@ -1,0 +1,1357 @@
+1678362164926	geckodriver	INFO	Listening on 127.0.0.1:53059
+1678362171068	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53060" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileZKnxeX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678362171399	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678362171405	Marionette	INFO	Listening on port 53079
+WebDriver BiDi listening on ws://127.0.0.1:53060
+Read port: 53079
+1678362171657	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileZKnxeX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53060/devtools/browser/a417da1c-584e-4d99-8440-b29c8f1c640d
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+1678362220495	Marionette	INFO	Stopped listening on port 53079
+Dynamically enable window occlusion 1
+1678362312849	geckodriver	INFO	Listening on 127.0.0.1:53283
+1678362318924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53284" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilevNKNQK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678362319230	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678362319234	Marionette	INFO	Listening on port 53294
+Read port: 53294
+WebDriver BiDi listening on ws://127.0.0.1:53284
+1678362319337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilevNKNQK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53284/devtools/browser/1fb828f3-6592-4a97-bf5f-5f7d8d707eeb
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1678362508737	Marionette	INFO	Stopped listening on port 53294
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53442" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilernAAGe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678362501295	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678362501298	Marionette	INFO	Listening on port 53452
+Read port: 53452
+WebDriver BiDi listening on ws://127.0.0.1:53442
+1678362501395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilernAAGe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53442/devtools/browser/5a4307be-daaa-4a1b-97c1-7a1d6f098af1
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+1678362530921	Marionette	INFO	Stopped listening on port 53451678362533078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53567" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileMNZk7O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678362533367	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678362533371	Marionette	INFO	Listening on port 53576
+Read port: 53576
+WebDriver BiDi listening on ws://127.0.0.1:53567
+1678362533472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileMNZk7O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53567/devtools/browser/0492433a-a9e6-4c6d-a6a5-92a77dab9de1
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678362583247	Marionette	INFO	Stopped listening on port 53576
+Dynamically enable window occlusion 1
+
+1678362580461	Marionette	INFO	Listening on port 53711
+Read port: 53711
+WebDriver BiDi listening on ws://127.0.0.1:53702
+1678362580566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilea9syWQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53702/devtools/browser/ecd3ade4-43db-48e9-8e9e-83d97f5aa2b4
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+1678362590783	Marionette	INFO	Stopped listening on port 53711
+Dynamically enable window occlusion 1
+1678362593817	geckodriver	INFO	Listening on 127.0.0.1:53806
+1678362599911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53807" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile2XtROe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678362600204	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678362600208	Marionette	INFO	Listening on port 53816
+Read port: 53816
+WebDriver BiDi listening on ws://127.0.0.1:53807
+1678362600306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile2XtROe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53807/devtools/browser/897b999a-807b-4ab6-aa2e-550c2ff05f50
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+1678362608119	Marionette	INFO	Stopped listening on port 53816
+Dynamically enable window occlusion 1
+1678362733057	geckodriver	INFO	Listening on 127.0.0.1:53938
+1678362739190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileC2uAqP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678362739478	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678362739482	Marionette	INFO	Listening on port 53948
+Read port: 53948
+WebDriver BiDi listening on ws://127.0.0.1:53939
+1678362739581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileC2uAqP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53939/devtools/browser/1a196180-a92b-482c-a234-3a3b9418d242
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+1678363044306	Marionette	INFO	Stopped listening on port 53948
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54144" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileahUYy7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678362993617	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678362993621	Marionette	INFO	Listening on port 54154
+Read port: 54154
+WebDriver BiDi listening on ws://127.0.0.1:54144
+1678362993749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileahUYy7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54144/devtools/browser/9ca0f201-1699-45d3-9be9-8481d3a0dd5d
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+1678363042690	Marionette	INFO	Stopped listening on port 54154
+Dynamically enable window occlusion 1
+1678363112858	geckodriver	INFO	Listening on 127.0.0.1:54280
+1678363118952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54281" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileyyVqCk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678363119238	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678363119241	Marionette	INFO	Listening on port 54290
+Read port: 54290
+WebDriver BiDi listening on ws://127.0.0.1:54281
+1678363119358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileyyVqCk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54281/devtools/browser/e66b2c76-0833-4210-9788-765c911fefb5
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: https://anime-list.net/, line 5989: ReferenceError: LazyLoad is not defined
+console.error: "Unable to find target with innerWindowId:6442450956"
+JavaScript error: https://anime-list.net/anime/8274/black-clover-mahou-tei-no-ken, line 3614: ReferenceError: LazyLoad is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678364313492	Marionette	INFO	Stopped listening on port 54290
+Dynamically enable window occlusion 1
+sion
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileNHwWVa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54439/devtools/browser/88d07b6b-f204-4c23-abbe-c84aa44f5e58
+JavaScript error: https://anime-list.net/, line 5989: ReferenceError: LazyLoad is not defined
+1678364307174	Marionette	INFO	Stopped listening on port 54449
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54666" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile51BEH6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678363373557	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678363373561	Marionette	INFO	Listening on port 54679
+Read port: 54679
+WebDriver BiDi listening on ws://127.0.0.1:54666
+1678363373680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile51BEH6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54666/devtools/browser/90f18188-f500-48e1-b585-c04ad6e2400b
+JavaScript error: https://anime-list.net/, line 5989: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.error: "Unable to find target with innerWindowId:6442450946"
+JavaScript error: https://anime-list.net/, line 5989: ReferenceError: LazyLoad is not defined
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: "Unable to find target with innerWindowId:6442450951"
+JavaScript error: https://anime-list.net/anime/8476/bungou-stray-dogs-4th-season, line 4357: ReferenceError: LazyLoad is not defined
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+console.error: "Unable to find target with innerWindowId:8589934596"
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:717:37
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:767:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:637:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #sendRequestBody@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1526:7
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:555:30
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:667:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1526, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1526))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #sendRequestBody@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1526:7
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:555:30
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:667:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1526, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1526))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #onResponseHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1064:5
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:558:31
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:667:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1064, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1064))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:717:37
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:338:35
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:717:37
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:345:35
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+console.warn: "Listener for event 'frame' did not return a promise."
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:717:37
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:767:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:637:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #sendRequestBody@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1526:7
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:555:30
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:667:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1526, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1526))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #onResponseHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1064:5
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:558:31
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:667:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1064, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1064))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:717:37
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:338:35
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+createNetworkEvent@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:179:33
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:717:37
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:345:35
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678364304585	Marionette	INFO	Stopped listening on port 54679
+Dynamically enable window occlusion 1
+
+1678364197383	Marionette	INFO	Listening on port 55010
+Read port: 55010
+WebDriver BiDi listening on ws://127.0.0.1:55001
+1678364197485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilegMNyRD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55001/devtools/browser/bf80a5e8-3795-4d12-91dc-a222cee1e2d6
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678364297278	Marionette	INFO	Stopped listening on port 55010
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileX8tZhr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364264777	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364264781	Marionette	INFO	Listening on port 55140
+Read port: 55140
+WebDriver BiDi listening on ws://127.0.0.1:55131
+1678364264881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileX8tZhr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55131/devtools/browser/4ccb5c86-0ca1-456c-9c20-25bf078c9332
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678364296350	Marionette	INFO	Stopped listening on port 55140
+Dynamically enable window occlusion 1
+1678364331487	geckodriver	INFO	Listening on 127.0.0.1:55387
+1678364337642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55388" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile5iC9ew"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364337949	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364337954	Marionette	INFO	Listening on port 55399
+Read port: 55399
+WebDriver BiDi listening on ws://127.0.0.1:55388
+1678364338066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile5iC9ew\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55388/devtools/browser/4496431f-a0ab-41dc-8953-f0f0831e3d02
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678364771173	Marionette	INFO	Stopped listening on port 55399
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55530" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileLgTgPU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364399213	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364399217	Marionette	INFO	Listening on port 55539
+Read port: 55539
+WebDriver BiDi listening on ws://127.0.0.1:55530
+1678364399319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileLgTgPU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55530/devtools/browser/0da8205d-7122-4ab2-86f5-2bceaa4fda3e
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncSWebDriver BiDi listening on ws://127.0.0.1:55678
+1678364470738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilenD0lmm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55678/devtools/browser/daff0de7-89bf-4eab-83f8-7dcb1b7de768
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+1678364642665	Marionette	INFO	Stopped listening on port 55688
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilePeUXJt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364599310	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364599314	Marionette	INFO	Listening on port 55960
+Read port: 55960
+WebDriver BiDi listening on ws://127.0.0.1:55951
+1678364599426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilePeUXJt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55951/devtools/browser/abab3254-18dc-4137-9f53-8cc9a4e815ac
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678364640275	Marionette	INFO	Stopped listening on port 55960
+Dynamically enable window occlusion 1
+1678364683110	geckodriver	INFO	Listening on 127.0.0.1:56082
+1678364689204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileX1hhrD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364689506	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364689510	Marionette	INFO	Listening on port 56092
+Read port: 56092
+WebDriver BiDi listening on ws://127.0.0.1:56083
+1678364689609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileX1hhrD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56083/devtools/browser/891d1b10-4470-4de3-835e-c9079c3f673b
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678364769821	Marionette	INFO	Stopped listening on port 56092
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56208" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileqD7zX9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364732017	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364732021	Marionette	INFO	Listening on port 56222
+Read port: 56222
+WebDriver BiDi listening on ws://127.0.0.1:56208
+1678364732120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileqD7zX9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56208/devtools/browser/26be5467-9ce8-4e2f-bb33-e344d7d15d05
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678364745663	Marionette	INFO	Stopped listening on port 56222
+Dynamically enable window occlusion 1
+1678364839557	geckodriver	INFO	Listening on 127.0.0.1:56331
+1678364845656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56332" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileiCbVQW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364845944	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364845948	Marionette	INFO	Listening on port 56341
+Read port: 56341
+WebDriver BiDi listening on ws://127.0.0.1:56332
+1678364846052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileiCbVQW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56332/devtools/browser/bf9099ea-80c5-4ee8-93bd-edec7d22f25b
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1678364857497	Marionette	INFO	Stopped listening on port 56341
+Dynamically enable window occlusion 1
+1678364889998	geckodriver	INFO	Listening on 127.0.0.1:56440
+1678364896111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilei8Dgxs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364896401	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364896405	Marionette	INFO	Listening on port 56453
+Read port: 56453
+WebDriver BiDi listening on ws://127.0.0.1:56441
+1678364896502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilei8Dgxs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56441/devtools/browser/599ab016-9d8e-4140-9c35-36c9812a68f2
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678364926994	Marionette	INFO	Stopped listening on port 56453
+Dynamically enable window occlusion 1
+1678364930904	geckodriver	INFO	Listening on 127.0.0.1:56565
+1678364937031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56566" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile7QmN2I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678364937323	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678364937326	Marionette	INFO	Listening on port 56575
+Read port: 56575
+WebDriver BiDi listening on ws://127.0.0.1:56566
+1678364937433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile7QmN2I\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56566/devtools/browser/6dad4c9e-d040-40a9-b8eb-36b03a1f00d5
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678364965416	Marionette	INFO	Stopped listening on port 56575
+Dynamically enable window occlusion 1
+1678365001839	geckodriver	INFO	Listening on 127.0.0.1:56735
+1678365007961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56736" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile8wfwJr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678365008266	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678365008271	Marionette	INFO	Listening on port 56746
+Read port: 56746
+WebDriver BiDi listening on ws://127.0.0.1:56736
+1678365008373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile8wfwJr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56736/devtools/browser/0bf1375b-eab9-49f6-a420-b6ef477ceb53
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678365018986	Marionette	INFO	Stopped listening on port 56746
+Dynamically enable window occlusion 1
+1678365029958	geckodriver	INFO	Listening on 127.0.0.1:56845
+1678365036070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56846" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileFVZHeV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678365036361	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678365036365	Marionette	INFO	Listening on port 56856
+Read port: 56856
+WebDriver BiDi listening on ws://127.0.0.1:56846
+1678365036467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileFVZHeV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56846/devtools/browser/13fc1c51-1653-45cf-bdb2-29e1f9acc6ff
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678365044828	Marionette	INFO	Stopped listening on port 56856
+Dynamically enable window occlusion 1
+1678365363662	geckodriver	INFO	Listening on 127.0.0.1:57020
+1678365369763	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilehNiN6y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678365370061	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678365370065	Marionette	INFO	Listening on port 57032
+Read port: 57032
+WebDriver BiDi listening on ws://127.0.0.1:57021
+1678365370168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilehNiN6y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57021/devtools/browser/51128eb2-2fb8-4163-b7c9-9612742d27a8
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678365373969	Marionette	INFO	Stopped listening on port 57032
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+1678365377671	geckodriver	INFO	Listening on 127.0.0.1:57103
+1678365383800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57104" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileHUxReF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678365384089	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678365384093	Marionette	INFO	Listening on port 57113
+Read port: 57113
+WebDriver BiDi listening on ws://127.0.0.1:57104
+1678365384194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileHUxReF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57104/devtools/browser/d4d51a5e-e6bd-4e8d-983b-99ceb5dab598
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678365398033	Marionette	INFO	Stopped listening on port 57113
+Dynamically enable window occlusion 1
+1678365580457	geckodriver	INFO	Listening on 127.0.0.1:57251
+1678365586538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57252" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileBhxiw5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678365586841	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678365586846	Marionette	INFO	Listening on port 57263
+Read port: 57263
+WebDriver BiDi listening on ws://127.0.0.1:57252
+1678365586954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileBhxiw5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57252/devtools/browser/0e54350b-d2c2-4cd4-9270-90849d939b29
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678365603569	Marionette	INFO	Stopped listening on port 57263
+Dynamically enable window occlusion 1
+1678365656794	geckodriver	INFO	Listening on 127.0.0.1:57381
+1678365662900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57382" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilexa7QwY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678365663196	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678365663200	Marionette	INFO	Listening on port 57395
+Read port: 57395
+WebDriver BiDi listening on ws://127.0.0.1:57382
+1678365663298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilexa7QwY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57382/devtools/browser/0fb86fe5-fa0a-49b7-9316-3de200756cc4
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1678365673404	Marionette	INFO	Stopped listening on port 57395
+Dynamically enable window occlusion 1
+1678365798527	geckodriver	INFO	Listening on 127.0.0.1:57516
+1678365804624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileHdGIzI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678365804938	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678365804941	Marionette	INFO	Listening on port 57526
+Read port: 57526
+WebDriver BiDi listening on ws://127.0.0.1:57517
+1678365805053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileHdGIzI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57517/devtools/browser/52ecc15a-14e9-424f-a738-b56379221a29
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678365825119	Marionette	INFO	Stopped listening on port 57526
+Dynamically enable window occlusion 1
+[Parent 13068, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1678366119441	geckodriver	INFO	Listening on 127.0.0.1:57725
+1678366125567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57726" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilecoXM26"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678366125866	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678366125870	Marionette	INFO	Listening on port 57735
+Read port: 57735
+WebDriver BiDi listening on ws://127.0.0.1:57726
+1678366125973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilecoXM26\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57726/devtools/browser/731798ec-6e13-40c2-bd63-c3195ef59181
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1678366138948	Marionette	INFO	Stopped listening on port 57735
+Dynamically enable window occlusion 1
+1678366297972	geckodriver	INFO	Listening on 127.0.0.1:57868
+1678366304065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileOHOd4G"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678366304376	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678366304381	Marionette	INFO	Listening on port 57878
+Read port: 57878
+WebDriver BiDi listening on ws://127.0.0.1:57869
+1678366304501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileOHOd4G\\search.json.mozlz4", (void 0)))
+1678366305879	Marionette	INFO	Stopped listening on port 57878
+Dynamically enable window occlusion 1
+1678366305888	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+1678366339768	geckodriver	INFO	Listening on 127.0.0.1:57899
+1678366345896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57900" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilecdyf0p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678366346199	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678366346203	Marionette	INFO	Listening on port 57909
+Read port: 57909
+WebDriver BiDi listening on ws://127.0.0.1:57900
+1678366346304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilecdyf0p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57900/devtools/browser/ced91a10-160c-4384-a34e-257515dae066
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+1678366373947	Marionette	INFO	Stopped listening on port 57909
+Dynamically enable window occlusion 1
+1678366640794	geckodriver	INFO	Listening on 127.0.0.1:58191
+1678366646890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58192" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileb3uM2c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678366647188	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678366647193	Marionette	INFO	Listening on port 58204
+Read port: 58204
+WebDriver BiDi listening on ws://127.0.0.1:58192
+1678366647303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileb3uM2c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58192/devtools/browser/aab03d99-77d4-4fe0-81fc-8ff653adf32f
+1678366648930	Marionette	INFO	Stopped listening on port 58204
+Dynamically enable window occlusion 1
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1678366651030	geckodriver	INFO	Listening on 127.0.0.1:58227
+1678366657128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58228" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile7OTtow"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678366657434	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678366657438	Marionette	INFO	Listening on port 58237
+Read port: 58237
+WebDriver BiDi listening on ws://127.0.0.1:58228
+1678366657536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile7OTtow\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58228/devtools/browser/dbb9472e-d5a8-4d44-9b2a-8e674579a289
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678366665837	Marionette	INFO	Stopped listening on port 58237
+Dynamically enable window occlusion 1
+1678366692028	geckodriver	INFO	Listening on 127.0.0.1:58330
+1678366698119	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilehBCDdM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678366698417	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678366698421	Marionette	INFO	Listening on port 58344
+Read port: 58344
+WebDriver BiDi listening on ws://127.0.0.1:58331
+1678366698520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilehBCDdM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58331/devtools/browser/f699b280-1989-4083-b7d2-a5ec66bc25d1
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+1678366728989	Marionette	INFO	Stopped listening on port 58344
+Dynamically enable window occlusion 1
+1678366731508	geckodriver	INFO	Listening on 127.0.0.1:58461
+1678366737618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58462" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilePv6dee"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678366737907	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678366737911	Marionette	INFO	Listening on port 58474
+Read port: 58474
+WebDriver BiDi listening on ws://127.0.0.1:58462
+1678366738012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilePv6dee\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58462/devtools/browser/92640499-1a29-429e-8014-dd53de344109
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+1678366755533	Marionette	INFO	Stopped listening on port 58474
+Dynamically enable window occlusion 1
+1678366895720	geckodriver	INFO	Listening on 127.0.0.1:58592
+1678366901845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileMeJFuj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678366902135	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678366902139	Marionette	INFO	Listening on port 58602
+Read port: 58602
+WebDriver BiDi listening on ws://127.0.0.1:58593
+1678366902240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileMeJFuj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58593/devtools/browser/8419f417-1973-4fda-9d7f-07662966f5db
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+1678366911051	Marionette	INFO	Stopped listening on port 58602
+Dynamically enable window occlusion 1
+1678367948398	geckodriver	INFO	Listening on 127.0.0.1:59509
+1678367954477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59510" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileIGkujx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678367954774	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678367954778	Marionette	INFO	Listening on port 59523
+Read port: 59523
+WebDriver BiDi listening on ws://127.0.0.1:59510
+1678367954879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileIGkujx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59510/devtools/browser/ef905f99-528b-4e33-92d8-177c61f341fe
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+1678368656615	Marionette	INFO	Stopped listening on port 59523
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59647" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilePHVFH4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368007263	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368007267	Marionette	INFO	Listening on port 59656
+Read port: 59656
+WebDriver BiDi listening on ws://127.0.0.1:59647
+1678368007386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilePHVFH4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59647/devtools/browser/3651afee-cbd3-46fd-a161-db1d3a16e0ae
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678368308665	Marionette	INFO	Stopped listening on port 59656
+Dynamically enable window occlusion 1
+1678368312260	geckodriver	INFO	Listening on 127.0.0.1:59826
+1678368318383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile1jxBr8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368318690	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368318694	Marionette	INFO	Listening on port 59836
+Read port: 59836
+WebDriver BiDi listening on ws://127.0.0.1:59827
+1678368318793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile1jxBr8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59827/devtools/browser/24bc8fc3-a9cd-4d7f-9f53-4c0696762377
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4854: ReferenceError: LazyLoad is not defined
+1678368348574	Marionette	INFO	Stopped listening on port 59836
+Dynamically enable window occlusion 1
+1678368351409	geckodriver	INFO	Listening on 127.0.0.1:59969
+1678368357511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59970" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileVbKqR8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368357804	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368357808	Marionette	INFO	Listening on port 60005
+Read port: 60005
+WebDriver BiDi listening on ws://127.0.0.1:59970
+1678368357909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileVbKqR8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59970/devtools/browser/e873c6d0-e823-4318-9a59-ce28a3bb55dd
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4854: ReferenceError: LazyLoad is not defined
+1678368375549	Marionette	INFO	Stopped listening on port 60005
+Dynamically enable window occlusion 1
+1678368420832	geckodriver	INFO	Listening on 127.0.0.1:60138
+1678368426932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile8gEQbt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368427221	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368427225	Marionette	INFO	Listening on port 60149
+Read port: 60149
+WebDriver BiDi listening on ws://127.0.0.1:60139
+1678368427335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile8gEQbt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60139/devtools/browser/9f5178cf-e4d3-4636-8d33-dbc591823219
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4854: ReferenceError: LazyLoad is not defined
+1678368450851	Marionette	INFO	Stopped listening on port 60149
+Dynamically enable window occlusion 1
+1678368528398	geckodriver	INFO	Listening on 127.0.0.1:60292
+1678368534508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileyIzrVk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368534804	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368534808	Marionette	INFO	Listening on port 60305
+Read port: 60305
+WebDriver BiDi listening on ws://127.0.0.1:60293
+1678368534910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileyIzrVk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60293/devtools/browser/fdf372ba-1f98-4633-886b-9560f7d2657b
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4854: ReferenceError: LazyLoad is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678368572111	Marionette	INFO	Stopped listening on port 60305
+Dynamically enable window occlusion 1
+1678368581497	geckodriver	INFO	Listening on 127.0.0.1:60444
+1678368587617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileamVfYp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368587914	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368587918	Marionette	INFO	Listening on port 60454
+Read port: 60454
+WebDriver BiDi listening on ws://127.0.0.1:60445
+1678368588027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileamVfYp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60445/devtools/browser/903f301d-81ba-4c84-940b-88630c944982
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4854: ReferenceError: LazyLoad is not defined
+1678368600864	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678368608705	Marionette	INFO	Stopped listening on port 60454
+Dynamically enable window occlusion 1
+1678368667346	geckodriver	INFO	Listening on 127.0.0.1:60592
+1678368673444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileFE76Kp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368673760	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368673764	Marionette	INFO	Listening on port 60603
+Read port: 60603
+WebDriver BiDi listening on ws://127.0.0.1:60593
+1678368673886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileFE76Kp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60593/devtools/browser/e2781272-30ea-4c06-b74b-1699d08c74ac
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4854: ReferenceError: LazyLoad is not defined
+1678368687844	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678368695206	Marionette	INFO	Stopped listening on port 60603
+Dynamically enable window occlusion 1
+1678368718124	geckodriver	INFO	Listening on 127.0.0.1:60739
+1678368724227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60740" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile9eKPai"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368724526	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368724530	Marionette	INFO	Listening on port 60749
+Read port: 60749
+WebDriver BiDi listening on ws://127.0.0.1:60740
+1678368724639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile9eKPai\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60740/devtools/browser/333b7fe9-5428-44ba-945d-ca2b74ce175a
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4854: ReferenceError: LazyLoad is not defined
+1678368739253	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678368938016	Marionette	INFO	Stopped listening on port 60749
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileEWibRI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368762656	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368762660	Marionette	INFO	Listening on port 60897
+Read port: 60897
+WebDriver BiDi listening on ws://127.0.0.1:60882
+1678368762762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileEWibRI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60882/devtools/browser/9ca60c3e-ac9f-4761-8057-e53229ddb2d7
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4691: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/6093/cardcaptor-sakura-clear-card-hen, line 4854: ReferenceError: LazyLoad is not defined
+1678368936233	Marionette	INFO	Stopped listening on port 60897
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61031" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileu4cQhJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368814659	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368814664	Marionette	INFO	Listening on port 61041
+Read port: 61041
+WebDriver BiDi listening on ws://127.0.0.1:61031
+1678368814771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileu4cQhJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61031/devtools/browser/e5964857-d17a-42e2-91d7-8410e4ccc452
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3885: ReferenceError: LazyLoad is not defined
+1678368935754	Marionette	INFO	Stopped listening on port 61041
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileBGshOu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678368844574	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678368844578	Marionette	INFO	Listening on port 61184
+Read port: 61184
+WebDriver BiDi listening on ws://127.0.0.1:61175
+1678368844681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileBGshOu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61175/devtools/browser/52ef7e51-8371-4967-a84e-b0347f85f662
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+[Parent 4460, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3885: ReferenceError: LazyLoad is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678368935369	Marionette	INFO	Stopped listening on port 61184
+Dynamically enable window occlusion 1
+
+1678368893120	Marionette	INFO	Listening on port 61329
+Read port: 61329
+WebDriver BiDi listening on ws://127.0.0.1:61320
+1678368893281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileBGqpwJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61320/devtools/browser/0329eca0-c781-4e6d-b266-0e52793c4f94
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3885: ReferenceError: LazyLoad is not defined
+1678368934889	Marionette	INFO	Stopped listening on port 61329
+Dynamically enable window occlusion 1
+1678369044798	geckodriver	INFO	Listening on 127.0.0.1:61535
+1678369050866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61536" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileJRm8SC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678369051155	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678369051159	Marionette	INFO	Listening on port 61545
+Read port: 61545
+WebDriver BiDi listening on ws://127.0.0.1:61536
+1678369051267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileJRm8SC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61536/devtools/browser/36fb4200-451a-4872-8e7b-335ce15d01ea
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3885: ReferenceError: LazyLoad is not defined
+1678369063171	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678369065850	Marionette	INFO	Stopped listening on port 61545
+Dynamically enable window occlusion 1
+1678369157243	geckodriver	INFO	Listening on 127.0.0.1:61706
+1678369163342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilesnY7xs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678369163665	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678369163670	Marionette	INFO	Listening on port 61716
+Read port: 61716
+WebDriver BiDi listening on ws://127.0.0.1:61707
+1678369163799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofilesnY7xs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61707/devtools/browser/7b27dab2-ae72-44cf-9d84-41a2a0a44829
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3764: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/8916/hoshi-no-samidare, line 3885: ReferenceError: LazyLoad is not defined
+1678369176761	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678369181546	Marionette	INFO	Stopped listening on port 61716
+Dynamically enable window occlusion 1
+1678369197886	geckodriver	INFO	Listening on 127.0.0.1:61854
+1678369203993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofiledxpdGM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678369204311	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678369204315	Marionette	INFO	Listening on port 61864
+Read port: 61864
+WebDriver BiDi listening on ws://127.0.0.1:61855
+1678369204454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofiledxpdGM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61855/devtools/browser/9dbe77be-8057-44d8-b6dc-f5a4eeb977f5
+JavaScript error: https://anime-list.net/anime/9392/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming, line 3497: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/9392/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming, line 3618: ReferenceError: LazyLoad is not defined
+1678369218071	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678369223458	Marionette	INFO	Stopped listening on port 61864
+Dynamically enable window occlusion 1
+1678369348165	geckodriver	INFO	Listening on 127.0.0.1:62020
+1678369354309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile01AGKa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678369354600	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678369354603	Marionette	INFO	Listening on port 62031
+Read port: 62031
+WebDriver BiDi listening on ws://127.0.0.1:62021
+1678369354705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofile01AGKa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62021/devtools/browser/66129104-7d2d-4e29-ac8e-590e7087fc9e
+JavaScript error: https://anime-list.net/anime/9392/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming, line 3497: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/9392/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming, line 3618: ReferenceError: LazyLoad is not defined
+1678369409658	Marionette	INFO	Stopped listening on port 62031
+Dynamically enable window occlusion 1
+1678369538806	geckodriver	INFO	Listening on 127.0.0.1:62196
+1678369544921	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileTKAHwx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678369545210	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678369545214	Marionette	INFO	Listening on port 62206
+Read port: 62206
+WebDriver BiDi listening on ws://127.0.0.1:62197
+1678369545321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileTKAHwx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62197/devtools/browser/8bde86fd-9c75-4356-b739-19d3d7c126ea
+JavaScript error: https://anime-list.net/anime/9392/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming, line 3497: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/9392/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming, line 3618: ReferenceError: LazyLoad is not defined
+1678369559113	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678369564821	Marionette	INFO	Stopped listening on port 62206
+Dynamically enable window occlusion 1
+1678370264387	geckodriver	INFO	Listening on 127.0.0.1:62476
+1678370270491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileSkcAiU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678370270786	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678370270790	Marionette	INFO	Listening on port 62487
+Read port: 62487
+WebDriver BiDi listening on ws://127.0.0.1:62477
+1678370270891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileSkcAiU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62477/devtools/browser/840da755-1031-4c5d-a3ae-b72cbfe9517b
+JavaScript error: https://anime-list.net/anime/9392/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming, line 3497: ReferenceError: LazyLoad is not defined
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/login.js, line 32: TypeError: mySVG is null
+JavaScript error: https://anime-list.net/AnimeCms_v4/public/Front/footer-bundle.js, line 1: ReferenceError: jQuery is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://anime-list.net."
+JavaScript error: https://anime-list.net/anime/9392/shi-cao-lao-long-bei-guan-yi-e-long-zhi-ming, line 3618: ReferenceError: LazyLoad is not defined
+1678370291589	Marionette	INFO	Stopped listening on port 62487
+Dynamically enable window occlusion 1
+1678370577286	geckodriver	INFO	Listening on 127.0.0.1:62660
+1678370583371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62661" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileSdsMzD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678370583685	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678370583689	Marionette	INFO	Listening on port 62671
+Read port: 62671
+WebDriver BiDi listening on ws://127.0.0.1:62661
+1678370583800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\danie\\AppData\\Local\\Temp\\rust_mozprofileSdsMzD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62661/devtools/browser/014fa3b3-6eac-4da0-ad6a-340a796fdb98
+1678370585770	Marionette	INFO	Stopped listening on port 62671
+Dynamically enable window occlusion 1
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:829:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"

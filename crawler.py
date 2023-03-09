@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from config import STORAGE_TYPE
 from parser import AnimeDetailParser
 from storage import FileStorage, MongoStorage
+from login import Browser
 
 
 class CrawlerBase(ABC):
@@ -26,13 +27,9 @@ class CrawlerBase(ABC):
     def store(self, data, file_name):
         pass
 
-    @staticmethod
-    def get(url):
-        try:
-            response = requests.get(url)
-        except requests.RequestException:
-            return None
-        return response
+    @abstractmethod
+    def get(self, url):
+        pass
 
 
 class LinkCrawler(CrawlerBase):
@@ -41,6 +38,13 @@ class LinkCrawler(CrawlerBase):
         self.url = url
         self.crawl = True
         super().__init__()
+
+    def get(self, url):
+        try:
+            response = requests.get(url)
+        except requests.RequestException:
+            return None
+        return response
 
     @staticmethod
     def find_links(html_doc):
@@ -80,6 +84,14 @@ class DataCrawler(CrawlerBase):
         super().__init__()
         self.links = self.__load_links()
         self.parser = AnimeDetailParser()
+
+    def get(self, url):
+        cookie = Browser()
+        try:
+            response = requests.get(url, cookies=cookie.login(url))
+        except requests.RequestException:
+            return None
+        return response
 
     def __load_links(self):
         return self.storage.load(collection_name="anime_links", filter_data={"flag": False})
