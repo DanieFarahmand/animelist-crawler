@@ -9,8 +9,7 @@ class MongoDatabase:
 
     @classmethod
     def __new__(cls, *args, **kwargs):
-        # check if the class attribute instance is None
-        if cls.instance is None:
+        if cls.instance is None:  # check if the class attribute instance is None
             # if it is None, create a new instance of the class
             cls.instance = super().__new__(*args, **kwargs)
         return cls.instance

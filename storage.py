@@ -49,8 +49,10 @@ class MongoStorage(StorageAbstract):
             return collection.find()
 
     def update_flag(self, data):
-        # Define an additional method `update_flag` to update the `flag` field of
-        # a specific document in the `anime_links` collection
+        """
+        Define an additional method `update_flag` to update the `flag` field of
+        a specific document in the `anime_links` collection.
+        """
         self.mongo.database.anime_links.find_one_and_update(
             {"_id": data["_id"]},
             {"$set": {"flag": True}}
@@ -70,12 +72,16 @@ class FileStorage(StorageAbstract):
         print(f"data/anime{file_name}.json")
 
     def load(self, collection_name, filter_data=None):
-        # Implement the `load` method to retrieve data from a JSON file
+        """
+        Implement the `load` method to retrieve data from a JSON file.
+        """
         with open(f"data/{collection_name}/links.json", "r") as f:
             datas = json.loads(f.read())
         return datas
 
     def update_flag(self, data):
-        # Define a method `update_flag` that does nothing for this class, since there
-        # is no document to update in a JSON file
+        """
+        Define a method `update_flag` that does nothing for this class, since there
+        is no document to update in a JSON file.
+        """
         pass
