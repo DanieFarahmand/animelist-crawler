@@ -1,2 +1,4 @@
 data/
-registration_data.py/
+registration_data.py
+geckodriver.log
+requirements.txt

@@ -17,5 +17,3 @@ def crawl_link(genre_id):
     return link
 
 
-if __name__ == "__main__":
-    pass
