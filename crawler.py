@@ -120,7 +120,6 @@ class DataCrawler(CrawlerBase):
         super().__init__()
         self.links = self.__load_links()  # load links to crawl
         self.parser = AnimeDetailParser()  # initialize parser object to parse anime details
-        self.session = requests.Session()
 
     def get(self, url):
         """
@@ -131,13 +130,15 @@ class DataCrawler(CrawlerBase):
         Send a GET request to the given URL with login and executed script cookies.
         If request fails, return None.
         """
-        cookies = {}
         login_cookie = SingletonLoginCookie()
-        cookies.update(login_cookie.get_cookie('https://anime-list.net/'))
         executed_script_cookie = ExecutedScriptCookie()
-        cookies.update(executed_script_cookie.get_cookie(browsing_url=url))
+        cookies = {
+            "c1": str(login_cookie.get_cookie('https://anime-list.net/login')),
+            "c2": str(executed_script_cookie.get_cookie(browsing_url=url))
+        }
+        headers = {'User-Agent': 'Mozilla/5.0'}
         try:
-            response = self.session.get(url, cookies=cookies)
+            response = requests.get(url, headers=headers, cookies=cookies)
             login_cookie.check_reset()  # check if login cookie needs to be reset
         except requests.RequestException:
             return None

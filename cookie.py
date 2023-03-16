@@ -13,7 +13,7 @@ from registration_data import EMAIL, PASSWORD
 class AbstractBrowser(ABC):
 
     @abstractmethod
-    def get_cookie(self, browsing_url  ):
+    def get_cookie(self, browsing_url):
         pass
 
 
@@ -39,8 +39,6 @@ class ExecutedScriptCookie(AbstractBrowser):
         cookies = {}
         driver_cookies = self.driver.get_cookies()
         for cookie in driver_cookies:
-            if "expiry" in cookie:
-                del cookie["expiry"]
             cookies[cookie["name"]] = cookie["value"]
         return cookies
 
@@ -49,15 +47,15 @@ class LoginCookie(AbstractBrowser):
     def __init__(self):
         self.driver = webdriver.Firefox()
 
-    def __click_on_login_button(self, xpath):
+    def __click_on_remember_button(self, xpath):
         try:
             # Wait up to 30 seconds for the login button to be clickable
-            login_button = WebDriverWait(self.driver, 30).until(
+            remember_button = WebDriverWait(self.driver, 30).until(
                 EC.element_to_be_clickable((By.XPATH, xpath))
             )
             # Scroll to the login button and click it
-            self.driver.execute_script("arguments[0].scrollIntoView();", login_button)
-            login_button.click()
+            self.driver.execute_script("arguments[0].scrollIntoView();", remember_button)
+            remember_button.click()
         except NoSuchElementException:
             print("login button not found")
 
@@ -88,7 +86,7 @@ class LoginCookie(AbstractBrowser):
 
     def get_cookie(self, browsing_url):
         self.driver.get(browsing_url)
-        self.__click_on_login_button(xpath="/html/body/header/div[5]/div[1]/div[3]/div/span/a")
+        self.__click_on_remember_button(xpath="/html/body/form/div/div[3]/div[1]/div[1]/label")
         self.__login_process(
             email_input_xpath="/html/body/form/div/div[2]/input[1]",
             password_input_xpath="/html/body/form/div/div[2]/input[2]",
@@ -97,8 +95,6 @@ class LoginCookie(AbstractBrowser):
         cookies = {}
         driver_cookies = self.driver.get_cookies()
         for cookie in driver_cookies:
-            if "expiry" in cookie:
-                del cookie["expiry"]
             cookies[cookie["name"]] = cookie["value"]
         return cookies
 
@@ -120,7 +116,7 @@ class SingletonLoginCookie(LoginCookie):
 
     def __new__(cls, *args, **kwargs):
         if not cls.__instance:
-            cls.__instance = super().__new__(cls, *args, **kwargs)
+            cls.__instance = LoginCookie()
         return cls.__instance
 
     @classmethod
@@ -150,4 +146,3 @@ class SingletonLoginCookie(LoginCookie):
         elif current_time - cls._last_reset_time > cls.login_expiration_period:
             cls.reset()
             cls._last_reset_time = current_time
-
