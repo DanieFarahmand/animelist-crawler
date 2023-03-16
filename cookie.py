@@ -151,14 +151,3 @@ class SingletonLoginCookie(LoginCookie):
             cls.reset()
             cls._last_reset_time = current_time
 
-
-if __name__ == "__main__":
-    # log = LoginCookie()
-    exe = ExecutedScriptCookie()
-    response = requests.get("https://anime-list.net/anime/8681/one-piece-film-red",
-                            cookies=exe.get_cookie("https://anime-list.net/anime/8681/one-piece-film-red"))
-    print(response.status_code)
-    print(response.cookies)
-    # print(response.text)
-# دانیال فرهمند
-# i wrote what did you write but when the get method rwquests to "https://anime-list.net/anime/8681/one-piece-film-red" i dont have the session  of login_cookie.get_cookie('https://anime-list.net/') and its not logined
