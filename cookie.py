@@ -1,6 +1,7 @@
 import time
 from abc import ABC, abstractmethod
 
+import requests
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -10,17 +11,15 @@ from registration_data import EMAIL, PASSWORD
 
 
 class AbstractBrowser(ABC):
-    def __init__(self):
-        self.driver = webdriver.Firefox()
 
     @abstractmethod
-    def get_cookie(self, browsing_url):
+    def get_cookie(self, browsing_url  ):
         pass
 
 
 class ExecutedScriptCookie(AbstractBrowser):
     def __init__(self):
-        super().__init__()
+        self.driver = webdriver.Firefox()
 
     def __click_on_subtitle_button(self):
         try:
@@ -37,13 +36,18 @@ class ExecutedScriptCookie(AbstractBrowser):
     def get_cookie(self, browsing_url):
         self.driver.get(browsing_url)
         self.__click_on_subtitle_button()
-        self.driver.close()
-        return self.driver.get_cookies()
+        cookies = {}
+        driver_cookies = self.driver.get_cookies()
+        for cookie in driver_cookies:
+            if "expiry" in cookie:
+                del cookie["expiry"]
+            cookies[cookie["name"]] = cookie["value"]
+        return cookies
 
 
 class LoginCookie(AbstractBrowser):
     def __init__(self):
-        super().__init__()
+        self.driver = webdriver.Firefox()
 
     def __click_on_login_button(self, xpath):
         try:
@@ -89,8 +93,14 @@ class LoginCookie(AbstractBrowser):
             email_input_xpath="/html/body/form/div/div[2]/input[1]",
             password_input_xpath="/html/body/form/div/div[2]/input[2]",
             submit_button_xpath="/html/body/form/div/div[3]/div[2]/button")
-        self.driver.close()
-        return self.driver.get_cookies()
+        # self.driver.close()
+        cookies = {}
+        driver_cookies = self.driver.get_cookies()
+        for cookie in driver_cookies:
+            if "expiry" in cookie:
+                del cookie["expiry"]
+            cookies[cookie["name"]] = cookie["value"]
+        return cookies
 
 
 class SingletonLoginCookie(LoginCookie):
@@ -140,3 +150,15 @@ class SingletonLoginCookie(LoginCookie):
         elif current_time - cls._last_reset_time > cls.login_expiration_period:
             cls.reset()
             cls._last_reset_time = current_time
+
+
+if __name__ == "__main__":
+    # log = LoginCookie()
+    exe = ExecutedScriptCookie()
+    response = requests.get("https://anime-list.net/anime/8681/one-piece-film-red",
+                            cookies=exe.get_cookie("https://anime-list.net/anime/8681/one-piece-film-red"))
+    print(response.status_code)
+    print(response.cookies)
+    # print(response.text)
+# دانیال فرهمند
+# i wrote what did you write but when the get method rwquests to "https://anime-list.net/anime/8681/one-piece-film-red" i dont have the session  of login_cookie.get_cookie('https://anime-list.net/') and its not logined

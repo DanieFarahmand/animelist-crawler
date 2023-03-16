@@ -9,7 +9,7 @@ genres = {
     # "romance": "22",
     # "shounen": "27",
 }
-STORAGE_TYPE = "mongo"  # choices: ['mongo','file']
+STORAGE_TYPE = "file"  # choices: ['mongo','file']
 
 
 def crawl_link(genre_id):

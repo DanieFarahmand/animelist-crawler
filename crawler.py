@@ -1,11 +1,15 @@
+import json
 from abc import ABC, abstractmethod
+from urllib.error import HTTPError
+
 import requests
 from bs4 import BeautifulSoup
 
 from config import STORAGE_TYPE
 from parser import AnimeDetailParser
 from storage import FileStorage, MongoStorage
-from cookie import SingletonLoginCookie, ExecutedScriptCookie
+from cookie import ExecutedScriptCookie, SingletonLoginCookie
+from registration_data import EMAIL, PASSWORD
 
 
 class CrawlerBase(ABC):
@@ -116,20 +120,24 @@ class DataCrawler(CrawlerBase):
         super().__init__()
         self.links = self.__load_links()  # load links to crawl
         self.parser = AnimeDetailParser()  # initialize parser object to parse anime details
+        self.session = requests.Session()
 
     def get(self, url):
         """
         Send a GET request to the given URL with login and executed script cookies.
         If request fails, return None.
         """
+        """
+        Send a GET request to the given URL with login and executed script cookies.
+        If request fails, return None.
+        """
+        cookies = {}
         login_cookie = SingletonLoginCookie()
+        cookies.update(login_cookie.get_cookie('https://anime-list.net/'))
         executed_script_cookie = ExecutedScriptCookie()
-        cookies = {
-            "cookie_1": login_cookie.get_cookie(url),
-            "cookie_2": executed_script_cookie.get_cookie(url),
-        }
+        cookies.update(executed_script_cookie.get_cookie(browsing_url=url))
         try:
-            response = requests.get(url, cookies=cookies)
+            response = self.session.get(url, cookies=cookies)
             login_cookie.check_reset()  # check if login cookie needs to be reset
         except requests.RequestException:
             return None
