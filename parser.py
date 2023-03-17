@@ -48,21 +48,9 @@ class AnimeDetailParser:
         if a_tags:
             return [a.text for a in a_tags]
 
-    @property
-    def subtitle(self):
-        subtitles_box = self.soup.find("div", attrs={"cLass": "row p18 ltr"})
-        if subtitles_box:
-            subtitle_a_tags = subtitles_box.find_all("a", attrs={"class": "item__link"})
-            if subtitle_a_tags:
-                print(subtitles_box)
-                return [sub_link.get("href") for sub_link in subtitle_a_tags]
-            else:
-                return []
-
     def parser(self, html_doc):
         # parse the HTML document and store the resulting soup object in the instance variable soup
         self.soup = BeautifulSoup(html_doc, "html.parser")
         # create a dictionary with the anime's title, image, summary, score, and genre
-        data = dict(title=self.title, image=self.image, summary=self.summary, score=self.score, genre=self.genre,
-                    subtitle=self.subtitle)
+        data = dict(title=self.title, image=self.image, summary=self.summary, score=self.score, genre=self.genre, )
         return data

@@ -8,8 +8,6 @@ from bs4 import BeautifulSoup
 from config import STORAGE_TYPE
 from parser import AnimeDetailParser
 from storage import FileStorage, MongoStorage
-from cookie import ExecutedScriptCookie, SingletonLoginCookie
-from registration_data import EMAIL, PASSWORD
 
 
 class CrawlerBase(ABC):
@@ -44,12 +42,12 @@ class CrawlerBase(ABC):
         """
         pass
 
-    @abstractmethod
     def get(self, url):
-        """
-        This method fetches the content of the given URL.
-        """
-        pass
+        try:
+            response = requests.get(url)
+        except requests.RequestException:
+            return None
+        return response
 
 
 class LinkCrawler(CrawlerBase):
@@ -62,13 +60,6 @@ class LinkCrawler(CrawlerBase):
         self.url = url
         self.crawl = True
         super().__init__()
-
-    def get(self, url):
-        try:
-            response = requests.get(url)
-        except requests.RequestException:
-            return None
-        return response
 
     @staticmethod
     def find_links(html_doc):
@@ -120,29 +111,6 @@ class DataCrawler(CrawlerBase):
         super().__init__()
         self.links = self.__load_links()  # load links to crawl
         self.parser = AnimeDetailParser()  # initialize parser object to parse anime details
-
-    def get(self, url):
-        """
-        Send a GET request to the given URL with login and executed script cookies.
-        If request fails, return None.
-        """
-        """
-        Send a GET request to the given URL with login and executed script cookies.
-        If request fails, return None.
-        """
-        login_cookie = SingletonLoginCookie()
-        executed_script_cookie = ExecutedScriptCookie()
-        cookies = {
-            "c1": str(login_cookie.get_cookie('https://anime-list.net/login')),
-            "c2": str(executed_script_cookie.get_cookie(browsing_url=url))
-        }
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        try:
-            response = requests.get(url, headers=headers, cookies=cookies)
-            login_cookie.check_reset()  # check if login cookie needs to be reset
-        except requests.RequestException:
-            return None
-        return response
 
     def __load_links(self):
         """
