@@ -93,13 +93,13 @@ class LinkCrawler(CrawlerBase):
         """
         anime_links = []
         with ThreadPoolExecutor(max_workers=10) as executor:
-            futures = []
+            threads = []
             for genre, genre_id in self.genre.items():
                 link = self.url(genre_id)
-                future = executor.submit(self.crawler, link)
-                futures.append(future)
-            for future in futures:
-                anime_links.extend(future.result())
+                thread = executor.submit(self.crawler, link)
+                threads.append(thread)
+            for thread in threads:
+                anime_links.extend(thread.result())
                 self.store([{'url': link, "flag": False} for link in anime_links])
         return anime_links
 

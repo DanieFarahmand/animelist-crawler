@@ -9,11 +9,9 @@ genres = {
     # "romance": "22",
     # "shounen": "27",
 }
-STORAGE_TYPE = "file"  # choices: ['mongo','file']
+STORAGE_TYPE = "mongo"  # choices: ['mongo','file']
 
 
 def crawl_link(genre_id):
     link = f"https://anime-list.net/anime/genre/{genre_id}/?page="
     return link
-
-

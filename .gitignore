@@ -2,3 +2,4 @@ data/
 registration_data.py
 geckodriver.log
 requirements.txt
+user_info.py
