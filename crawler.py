@@ -1,6 +1,5 @@
-import json
+from concurrent.futures import ThreadPoolExecutor
 from abc import ABC, abstractmethod
-from urllib.error import HTTPError
 
 import requests
 from bs4 import BeautifulSoup
@@ -8,6 +7,7 @@ from bs4 import BeautifulSoup
 from config import STORAGE_TYPE
 from parser import AnimeDetailParser
 from storage import FileStorage, MongoStorage
+from user_info import EMAIL, PASSWORD, URL
 
 
 class CrawlerBase(ABC):
@@ -42,13 +42,6 @@ class CrawlerBase(ABC):
         """
         pass
 
-    def get(self, url):
-        try:
-            response = requests.get(url)
-        except requests.RequestException:
-            return None
-        return response
-
 
 class LinkCrawler(CrawlerBase):
     """
@@ -60,6 +53,13 @@ class LinkCrawler(CrawlerBase):
         self.url = url
         self.crawl = True
         super().__init__()
+
+    def get(self, url):
+        try:
+            response = requests.get(url)
+        except requests.RequestException:
+            return None
+        return response
 
     @staticmethod
     def find_links(html_doc):
@@ -91,11 +91,16 @@ class LinkCrawler(CrawlerBase):
         """
         This method starts the crawling process and returns a list of links to anime shows.
         """
-        anime_links = list()
-        for genre, genre_id in self.genre.items():
-            link = self.url(genre_id)
-            anime_links.extend(self.crawler(link))
-            self.store([{'url': link, "flag": False} for link in anime_links])
+        anime_links = []
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            futures = []
+            for genre, genre_id in self.genre.items():
+                link = self.url(genre_id)
+                future = executor.submit(self.crawler, link)
+                futures.append(future)
+            for future in futures:
+                anime_links.extend(future.result())
+                self.store([{'url': link, "flag": False} for link in anime_links])
         return anime_links
 
     def store(self, data, file_name="links"):
@@ -111,6 +116,28 @@ class DataCrawler(CrawlerBase):
         super().__init__()
         self.links = self.__load_links()  # load links to crawl
         self.parser = AnimeDetailParser()  # initialize parser object to parse anime details
+        self.session = self.login()
+
+    @staticmethod
+    def login():
+        session = requests.Session()
+        response = session.get(URL)
+        content = BeautifulSoup(response.text, "html.parser")
+        data = {}
+        for form in content.find_all("form"):
+            for inp in form.select("input[type=hidden]"):
+                data[inp.get("name")] = inp.get("value")
+        data.update({"email": EMAIL, "password": PASSWORD})
+        headers = {"User_Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0"}
+        re = session.post(URL, headers=headers, data=data)
+        return session
+
+    def get(self, url):
+        try:
+            response = self.session.get(url)
+        except requests.RequestException:
+            return None
+        return response
 
     def __load_links(self):
         """
@@ -123,11 +150,19 @@ class DataCrawler(CrawlerBase):
         Crawl and parse anime data for each link, and store the data in storage.
         Update the flag of each link in storage once the data is crawled and stored.
         """
-        for link in self.links:
-            response = self.get(link["url"])  # send GET request to link
-            datas = self.parser.parser(response.text)  # parse anime data
-            self.store(anime_data=datas, file_name=datas["title"].replace(" ", "-"))  # store anime data
-            self.storage.update_flag(link)  # update flag of the link
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            futures = []
+            for link in self.links:
+                future = executor.submit(self.__process_link, link)
+                futures.append(future)
+            for future in futures:
+                future.result()
+
+    def __process_link(self, link):
+        response = self.get(link["url"])  # send GET request to link
+        datas = self.parser.parser(response.text)  # parse anime data
+        self.store(anime_data=datas, file_name=datas["title"].replace(" ", "-"))  # store anime data
+        self.storage.update_flag(link)  # update flag of the link
 
     def store(self, anime_data, file_name):
         """
@@ -157,10 +192,17 @@ class ImageDownloader(CrawlerBase):
         return self.storage.load("anime_data")  # loads the images url
 
     def start(self):
-        for anime in self.animes:
-            print(anime)
-            response = self.get(anime["image"]["url"])  # downloads the image
-            self.store(response, file_name=anime['_id'])  # stores the image
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            threads = []
+            for anime in self.animes:
+                thread = executor.submit(self.download_image, anime)
+                threads.append(thread)
+            for thread in threads:
+                thread.result()
+
+    def download_image(self, anime):
+        response = self.get(anime["image"]["url"])  # downloads the image
+        self.store(response, file_name=anime['_id'])  # stores the image
 
     def store(self, data, file_name):
         return self.save_to_disk(data, file_name)
